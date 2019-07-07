@@ -1,4 +1,4 @@
-<div class="Loader"></div>
+
 <div class="wrapper">
     <nav class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav">
         <div class="container">

@@ -24,3 +24,7 @@ Route::get('/admins/dashboard','AdminController@index')->name('index.admin');
 
 Route::get('/admins/job','AdminController@job')->name('job.add');
 Route::post('/admins/job/post','AdminController@Postjob')->name('job.save');
+Route::get('/admins/alljob/', 'AdminController@alljob')->name('all.job');
+Route::get('/admins/update/{id}', 'AdminController@getUpdate')->name('getUpdate');
+Route::post('/admins/update/{id}', 'AdminController@update')->name('update');
+Route::post('/admins/delete/{id}', 'AdminController@jobDelete')->name('jobDelete');

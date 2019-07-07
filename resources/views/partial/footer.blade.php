@@ -1,4 +1,4 @@
-
+<div class="dashboard-wrapper">
  <footer class="footer">
             <div class="row lg-menu">
                 <div class="container">
@@ -156,6 +156,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <!-- Scripts==================================================-->
         <script type="text/javascript" src="{{ url('/') }}/assets/plugins/js/jquery.min.js"></script>

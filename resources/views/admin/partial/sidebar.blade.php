@@ -16,7 +16,7 @@
                                 <div id="submenu-9" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">All job</a>
+                                            <a class="nav-link" href="{{ route('all.job') }}">All job</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{ Route('job.add') }}">Add job</a>

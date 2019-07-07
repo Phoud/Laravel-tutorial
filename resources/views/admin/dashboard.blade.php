@@ -1,7 +1,5 @@
 @extends('admin.main')
 @section('content')
-    <div class="dashboard-main-wrapper">
-<div class="dashboard-wrapper">
       <div class="dashboard-wrapper">
             <div class="dashboard-ecommerce">
                 <div class="container-fluid dashboard-content ">
@@ -525,4 +523,6 @@
                     </div>
                 </div>
             </div>
+        </div>
+
 @endsection

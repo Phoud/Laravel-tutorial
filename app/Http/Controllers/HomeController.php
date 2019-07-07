@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     public function home(){
 
-    $jobs = PostJob::all();
+    $jobs = PostJob::inRandomOrder()->get();
 
     	return view('pages.home',compact('jobs'));
     }
